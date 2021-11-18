@@ -1094,7 +1094,7 @@ pragma solidity ^0.6.12;
             _marketingWalletAddress = marketingWalletAddress;
         }
 
-        function _setMarketingWallet2(address payable rescueWalletAddress) external onlyOwner() {
+        function _setRescueWallet(address payable rescueWalletAddress) external onlyOwner() {
             _rescueWalletAddress = rescueWalletAddress;
         }
 
